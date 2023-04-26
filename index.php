@@ -13,7 +13,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand bg-body-tertiary bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand bg-body-tertiary bg-primary sticky-top" data-bs-theme="dark">
         <div class="container-lg">
             <a class="navbar-brand" href="#">Navbar</a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -55,7 +55,8 @@
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav nav-pills flex-column justify-content-end flex-grow-1">
                                     <li class="nav-item">
-                                        <a class="nav-link active link-light" aria-current="page" href="#"><i class="bi bi-house-door"></i> Home</a>
+                                        <a class="nav-link active link-light" aria-current="page" href="#"><i
+                                                class="bi bi-house-door"></i> Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link link-dark" href="#"><i class="bi bi-cart4"></i> Order</a>
@@ -67,7 +68,8 @@
                                         <a class="nav-link link-dark" href="#"><i class="bi bi-handbag"></i> Product</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link link-dark" href="#"><i class="bi bi-envelope-paper"></i> Report</a>
+                                        <a class="nav-link link-dark" href="#"><i class="bi bi-envelope-paper"></i>
+                                            Report</a>
                                     </li>
                                 </ul>
                             </div>
@@ -79,10 +81,24 @@
 
 
             <!-- content -->
-            <div class="col-lg-9 bg-secondary">
-
+            <div class="col-lg-9 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        Home
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ratione facere perspiciatis est minima nemo provident rerum debitis accusantium cupiditate repudiandae iste, laborum et sunt sed in suscipit praesentium a.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
             <!-- end content -->
+        </div>
+
+
+        <div class="fixed-bottom text-center mb-2">
+            Copyright 2023 Yudayuda
         </div>
     </div>
 
