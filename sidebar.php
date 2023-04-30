@@ -18,16 +18,16 @@
                                     class="bi bi-house-door"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-dark" href="#"><i class="bi bi-cart4"></i> Order</a>
+                            <a class="nav-link link-dark" href="order.php"><i class="bi bi-cart4"></i> Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-dark" href="#"><i class="bi bi-person"></i> Customer</a>
+                            <a class="nav-link link-dark" href="customer.php"><i class="bi bi-person"></i> Customer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-dark" href="#"><i class="bi bi-handbag"></i> Product</a>
+                            <a class="nav-link link-dark" href="product.php"><i class="bi bi-handbag"></i> Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-dark" href="#"><i class="bi bi-envelope-paper"></i>
+                            <a class="nav-link link-dark" href="report.php"><i class="bi bi-envelope-paper"></i>
                                 Report</a>
                         </li>
                     </ul>
