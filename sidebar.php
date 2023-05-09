@@ -18,16 +18,16 @@
                                     class="bi bi-house-door"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'order') ? 'active link-light' : 'link-dark' ; ?>" href="order.php?x=order"><i class="bi bi-cart4"></i> Order</a>
+                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'order') ? 'active link-light' : 'link-dark' ; ?>" href="index.php?x=order"><i class="bi bi-cart4"></i> Order</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'customer') ? 'active link-light' : 'link-dark' ; ?>" href="customer.php?x=customer"><i class="bi bi-person"></i> Customer</a>
+                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'customer') ? 'active link-light' : 'link-dark' ; ?>" href="index.php?x=customer"><i class="bi bi-person"></i> Customer</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'product') ? 'active link-light' : 'link-dark' ; ?>" href="product.php?x=product"><i class="bi bi-handbag"></i> Product</a>
+                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'product') ? 'active link-light' : 'link-dark' ; ?>" href="index.php?x=product"><i class="bi bi-handbag"></i> Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'report') ? 'active link-light' : 'link-dark' ; ?>" href="report.php?x=report"><i class="bi bi-envelope-paper"></i>
+                            <a class="nav-link <?php echo (isset($_GET['x']) && $_GET['x']== 'report') ? 'active link-light' : 'link-dark' ; ?>" href="index.php?x=report"><i class="bi bi-envelope-paper"></i>
                                 Report</a>
                         </li>
                     </ul>
