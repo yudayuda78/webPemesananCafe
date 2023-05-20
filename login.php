@@ -93,7 +93,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="sign-in/sign-in.css" rel="stylesheet">
+    <link href="assets/css/login.css" rel="stylesheet">
 </head>
 
 <body class="text-center">
@@ -167,17 +167,23 @@
 
 
     <main class="form-signin w-100 m-auto">
-        <form>
+        <form class="needs-validation" novalidate>
             <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
             <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
+                <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                </div>
             </div>
             <div class="form-floating">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
+                <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                </div>
             </div>
 
             <div class="checkbox mb-3">
@@ -191,7 +197,27 @@
     </main>
 
 
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
 
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
 </body>
 
 </html>
