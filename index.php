@@ -1,7 +1,6 @@
 
             <!-- content -->
             <?php if (isset($_GET['x']) && $_GET['x']== 'home'){
-                include "main.php";
                 $page = "home.php";
                 include "main.php";
                 }elseif(isset($_GET['x']) && $_GET['x']=='order'){

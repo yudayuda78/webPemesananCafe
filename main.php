@@ -45,16 +45,6 @@
             <!-- content -->
             <?php if (isset($_GET['x']) && $_GET['x']== 'home'){
                 include "home.php";
-                }elseif(isset($_GET['x']) && $_GET['x']=='order'){
-                    include "order.php";
-                }elseif(isset($_GET['x']) && $_GET['x']=='product'){
-                    include "product.php";
-                }elseif(isset($_GET['x']) && $_GET['x']=='customer'){
-                    include "customer.php";
-                }elseif(isset($_GET['x']) && $_GET['x']=='report'){
-                    include "report.php";
-                }else{
-                    include "home.php";
                 }; ?>
             <!-- end content -->
         </div>
