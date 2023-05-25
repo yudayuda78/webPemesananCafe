@@ -41,10 +41,10 @@
             <?php include "sidebar.php" ?>
             <!-- end sidebar -->
 
-
+            <!-- bagian ini masih bingung -->
             <!-- content -->
             <?php if (isset($_GET['x']) && $_GET['x']== 'home'){
-                include "home.php";
+                include "home.php"; 
                 }; ?>
             <!-- end content -->
         </div>
